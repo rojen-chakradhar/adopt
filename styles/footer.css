@@ -1,4 +1,4 @@
-footer {
+.menu-list {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8,21 +8,26 @@ footer {
   justify-content: space-between;
   padding: 0.5rem 5vw;
   background-color: var(--white);
-  /* background-color: var(--black); */
+  box-shadow: 0 0 5px var(--fade), 0 0 5px var(--fade);
 }
 
-footer li {
+.menu {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  color: var(--black);
 }
 
-footer li i {
+.menu-icon {
   font-size: 20px;
 }
 
-span {
-  text-transform: capitalize;
+.menu-txt {
   font-size: 12px;
+  text-transform: capitalize;
+}
+
+.active {
+  color: var(--red);
 }

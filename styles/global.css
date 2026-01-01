@@ -11,7 +11,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: var(--black);
 }
 
 html,
@@ -22,7 +21,9 @@ body {
 
 :root {
   --white: #ede4da;
+  --fade: #bfb8b4;
   --black: #222222;
+  --red: #ca5954;
 }
 
 #wrapper {

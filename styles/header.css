@@ -1,14 +1,14 @@
-nav {
+header {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5vw;
-  width: 100%;
+  padding: 0.5rem 5vw;
   background-color: var(--white);
-  background-color: var(--black);
+  box-shadow: 0 0 5px var(--fade), 0 0 5px var(--fade);
 }
 
 .logo {
@@ -19,12 +19,13 @@ nav {
   cursor: pointer;
 }
 
-.nav-icons {
+.header-icons {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-.nav-icon {
+.header-icon {
   font-size: 20px;
+  color: var(--black);
 }
