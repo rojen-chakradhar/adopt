@@ -57,3 +57,21 @@ header {
     mix-blend-mode: multiply;
   }
 }
+
+details {
+  position: relative;
+  ul {
+    position: absolute;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--fade);
+    background-color: var(--white);
+    z-index: 8888;
+    li{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
